@@ -1,1 +1,7 @@
-
+git clone https://github.com/janenim/janenim.github.io.git
+cd janenim.github.io
+mkdir -p assets/img  
+cp C:\Users\nimja\Downloads\IMG_8042.jpeg assets/img/  
+git add .
+git commit -m "Add profile photo"
+git push
