@@ -1,16 +1,31 @@
-## Hi there 👋
+# Jane Nim  
+**Information Systems Graduate | Tech Enthusiast**  
 
-<!--
-**Janenim/janenim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+📍 Conway, AR - USA  
+📧 [nimjane007@gmail.com](mailto:nimjane007@gmail.com)  
+🌐 [janenim.github.io](https://janenim.github.io)  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 👋 About Me  
+
+I’m a recent graduate from the **University of Central Arkansas**, where I earned a **Bachelor’s degree in Information Systems** with a Minor in Computer Science. During my time at UCA, I was honored to receive the **Presidential Medallion** and was named the **Outstanding College of Business Student of the Year**.  
+
+🔹 **Technical Experience**: Worked with IBM QRadar (SIEM) at Acxiom to monitor security threats.  
+🔹 **Skills**: Cybersecurity, problem-solving, fluent in Mandarin/English.  
+🔹 **Passions**: Diversity initiatives, crime/mystery books & movies!  
+
+---
+
+## 🎓 Education  
+**University of Central Arkansas**  
+*Bachelor of Science in Information Systems*  
+- Minor: Computer Science  
+- Honors: Interdisciplinary Studies  
+
+---
+
+## 🛠️ Skills  
+- **Cybersecurity**: SIEM, threat analysis  
+- **Tech**: Python, SQL, Linux  
+- **Soft Skills**: Leadership, adaptability  
