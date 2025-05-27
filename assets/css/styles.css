@@ -1,10 +1,7 @@
 /*!
  * Template Name: Developer - Portfolio Landing Page Bootstrap 5 Template for Developers
  * Version: Bootstrap 5 v1.0
- * Author: Xiaoying Riley
- * Twitter: @3rdwave_themes
- * Copyright: 3rd Wave Media Ltd.
- * Website: https://themes.3rdwavemedia.com/
+ * Author: Jane Nim
 */
 body {
   font-family: "Lato", arial, sans-serif;
@@ -17,12 +14,17 @@ body {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  color: #778492;
+}
+
+h3{
+  font-family: "Montserrat", sans-serif; 
+  font-weight: 600;
   color: #778492;
 }
 
