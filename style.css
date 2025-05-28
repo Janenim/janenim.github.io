@@ -211,6 +211,44 @@ a.dotted-link:hover {
 
 
 /* Main Layout */
+
+.sidebar {
+  width: 240px; /* Fixed width for consistency */
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between cards */
+}
+
+.sidebar-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.sidebar-card h3 {
+  color: #1e3a8a;
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+.sidebar-card p {
+  margin: 8px 0;
+  line-height: 1.4;
+}
+
+.sidebar-card a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.sidebar-card a:hover {
+  text-decoration: underline;
+}
+
 .main-wrapper {
   display: grid;
   grid-template-columns: 2fr 1fr;
