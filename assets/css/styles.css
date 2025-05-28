@@ -80,23 +80,27 @@ header a {
   max-width: 600px;
 }
 
-.card -- education h3 {
+.card h3 {
   margin-top: 0;
   font-size: 1.4rem;
   color: #333;
 }
 
-.card -- education h2{
+.card h2{
   font-size: 1.4rem;
   color: #999;
 }
 
-.card -- education p {
-  color: #666; /* Medium gray color */
+.card p {
+  color: #999; /* Medium gray color */
   font-size: 0.9rem; /* Slightly smaller than base font */
   line-height: 1.4; /* Reduced line spacing (default is typically 1.5-1.6) */
-  font-style: italic; /* Italic text */
   margin-bottom: 0.8rem; /* Adjust paragraph spacing if needed */
+}
+
+#education .card p {
+  color: #666;
+  font-style: italic; /* Only targets <p> inside #education */
 }
 
 /* Sidebar Info */
