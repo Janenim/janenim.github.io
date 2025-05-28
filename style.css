@@ -208,23 +208,48 @@ a.dotted-link:hover {
   position: relative;
   top: -2px;
 }
-.sidebar {
-  width: fit-content;
-  padding: 12px 15px;
-  margin: 0;
-  line-height: 1.4;
+
+
+/* Main Layout */
+.main-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.sidebar a {
-  text-decoration: none;
-  color: #0066cc; /* Modern link color */
+.about-me {
+  grid-column: 1;
 }
 
-.sidebar p {
-  margin: 8px 0;
-  white-space: nowrap; /* Prevents line breaks */
+.links {
+  grid-column: 2;
+  grid-row: 1;
 }
 
+.education {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+/* Cards */
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+/* Section Headers */
+h3 {
+  color: #1e3a8a;
+  border-bottom: 2px solid #1e3a8a;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
 /* About Section */
 /* Latest Section */
 .latest .item {
