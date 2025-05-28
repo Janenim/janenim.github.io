@@ -114,7 +114,7 @@ header a {
 
 /*************dont change janeeee 5/28/2025**************/
 /*SECTION EDUCATION*/
-#education .card p {
+#education .card p1 {
   color: #666;
   font-style: italic;
   text-indent: 1.8em;
@@ -123,8 +123,8 @@ header a {
 
 /*************dont change janeeee 5/28/2025**************/
 #education .card h2{
-  font-size: 1.4rem;
-  color: #505050;
+  font-size: 1.2rem;
+  color: #787878;
 }
 
 /* Sidebar Info */
