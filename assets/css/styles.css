@@ -92,15 +92,20 @@ header a {
 }
 
 .card p {
-  color: #999; /* Medium gray color */
+  color: #a9a9a9; 
   font-size: 0.9rem; /* Slightly smaller than base font */
   line-height: 1.4; /* Reduced line spacing (default is typically 1.5-1.6) */
   margin-bottom: 0.8rem; /* Adjust paragraph spacing if needed */
 }
 
+/*SECTION EDUCATION*/
 #education .card p {
   color: #666;
-  font-style: italic; /* Only targets <p> inside #education */
+  font-style: italic;
+}
+
+#education .card h2{
+  color: #999;
 }
 
 /* Sidebar Info */
