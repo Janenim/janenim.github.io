@@ -100,14 +100,14 @@ header a {
 }
 
 /*work section*/
-#work experience.card p {
+#work .card p {
   color: #666;
   font-style: italic;
   text-indent: 1.8em;
   line-height: 0.8;
 }
 
-#work experience .card h2{
+#work .card h2{
   font-size: 1.4rem;
   color: #505050;
 }
