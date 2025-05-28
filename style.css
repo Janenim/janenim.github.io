@@ -211,74 +211,50 @@ a.dotted-link:hover {
 
 
 /* Main Layout */
-
-.sidebar {
-  width: 240px; /* Fixed width for consistency */
-  display: flex;
-  flex-direction: column;
-  gap: 20px; /* Space between cards */
-}
-
-.sidebar-card {
-  background: #ffffff;
-  border: 1px solid #e2e8f0;  /* Light gray border */
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
-              0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  margin-bottom: 20px;
-}
-
-.sidebar-card h3 {
-  color: #1e3a8a;
-  font-size: 1.1rem;
-  margin-top: 0;
-  margin-bottom: 15px;
-  border-bottom: 1px solid #e2e8f0;
-  padding-bottom: 8px;
-}
-
-.sidebar-card p {
-  margin: 8px 0;
-  line-height: 1.4;
-}
-
-.sidebar-card a {
-  color: #2563eb;
-  text-decoration: none;
-}
-
-.sidebar-card a:hover {
-  text-decoration: underline;
-}
-
 .main-wrapper {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 20px;
+  grid-template-columns: 2fr 1fr; /* 2:1 ratio */
+  gap: 30px;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
-.about-me {
+.main-content {
   grid-column: 1;
 }
 
-.links {
+.sidebar {
   grid-column: 2;
-  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.education {
-  grid-column: 1;
-  grid-row: 2;
+/* Cards */
+.card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
 
-/* Section Headers */
-h3 {
-  color: #1e3a8a;
-  border-bottom: 2px solid #1e3a8a;
-  padding-bottom: 8px;
-  margin-bottom: 15px;
+.sidebar-card {
+  width: 100%; /* Take full width of sidebar */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    grid-column: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .sidebar-card {
+    width: calc(50% - 10px);
+  }
 }
