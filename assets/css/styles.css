@@ -102,6 +102,8 @@ header a {
 #education .card p {
   color: #666;
   font-style: italic;
+  text-indent: 1.5em;
+  line-height: 0.8;
 }
 
 #education .card h2{
