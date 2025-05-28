@@ -208,15 +208,21 @@ a.dotted-link:hover {
   position: relative;
   top: -2px;
 }
-.sidebar.card {
-  width: fit-content;  /* Shrink to content */
-  padding: 12px 15px; /* Tighter padding */
-  line-height: 1.4;   /* Compact spacing */
+.sidebar {
+  width: fit-content;
+  padding: 12px 15px;
+  margin: 0;
+  line-height: 1.4;
 }
 
-.sidebar.card a {
-  text-decoration: none; /* Cleaner links */
-  margin: 0 5px;        /* Spacing between items */
+.sidebar a {
+  text-decoration: none;
+  color: #0066cc; /* Modern link color */
+}
+
+.sidebar p {
+  margin: 8px 0;
+  white-space: nowrap; /* Prevents line breaks */
 }
 
 /* About Section */
