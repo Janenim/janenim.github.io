@@ -85,6 +85,14 @@ header a {
   color: #333;
 }
 
+.card p {
+  color: #666; /* Medium gray color */
+  font-size: 0.9rem; /* Slightly smaller than base font */
+  line-height: 1.4; /* Reduced line spacing (default is typically 1.5-1.6) */
+  font-style: italic; /* Italic text */
+  margin-bottom: 0.8rem; /* Adjust paragraph spacing if needed */
+}
+
 /* Sidebar Info */
 .sidebar {
   max-width: 300px;
