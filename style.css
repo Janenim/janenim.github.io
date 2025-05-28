@@ -211,24 +211,39 @@ a.dotted-link:hover {
 
 
 /* Main Layout */
+.main-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Main content (2/3) + sidebar (1/3) */
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-.sidebar {
-  width: 240px; /* Fixed width for consistency */
+/* About Me Section (Main Content) */
+.about-me {
+  grid-column: 1;
+}
+
+/* Sidebar (Links + Education) */
+aside {
+  grid-column: 2;
   display: flex;
   flex-direction: column;
   gap: 30px; /* Space between cards */
 }
 
-.sidebar-card {
+/* Card Styling (Applies to ALL cards) */
+.card {
   background: #ffffff;
-  border: 1px solid #e2e8f0;  /* Light gray border */
+  border: 1px solid #e2e8f0;
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
               0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
-.sidebar-card h3 {
+.card h3 {
   color: #1e3a8a;
   font-size: 1.1rem;
   margin-top: 0;
@@ -237,51 +252,45 @@ a.dotted-link:hover {
   padding-bottom: 8px;
 }
 
-.sidebar-card p {
+.card p {
   margin: 8px 0;
   line-height: 1.4;
 }
 
-.sidebar-card a {
+.card a {
   color: #2563eb;
   text-decoration: none;
 }
 
-.sidebar-card a:hover {
+.card a:hover {
   text-decoration: underline;
 }
 
+/* Education Card (Optional Adjustments) */
 .education-card {
-  margin-top: 10px; /* Extra space if needed */
+  margin-top: 10px;
 }
 
-.main-wrapper {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.about-me {
-  grid-column: 1;
-}
-
-.links {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.education {
-  grid-column: 1;
-  grid-row: 2;
-}
-
-/* Section Headers */
+/* Section Headers (Global) */
 h3 {
   color: #1e3a8a;
   border-bottom: 2px solid #1e3a8a;
   padding-bottom: 8px;
   margin-bottom: 15px;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .main-wrapper {
+    grid-template-columns: 1fr; /* Stack on small screens */
+  }
+  
+  aside {
+    grid-column: 1; /* Move sidebar below main content */
+    order: 2; /* Ensure it appears after .about-me */
+  }
+  
+  .about-me {
+    order: 1;
+  }
 }
