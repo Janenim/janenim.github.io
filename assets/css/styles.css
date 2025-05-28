@@ -100,16 +100,16 @@ header a {
 }
 
 /*work section*/
-#work .card p {
+#work .card p1 {
   color: #666;
   font-style: italic;
   text-indent: 1.8em;
   line-height: 0.8;
 }
 
-#work .card h3{
-  font-size: 1.4rem;
-  color: #505050;
+#work .card h2{
+  font-size: 1.2rem;
+  color: #787878;
 }
 
 /*************dont change janeeee 5/28/2025**************/
