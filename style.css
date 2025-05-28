@@ -210,51 +210,48 @@ a.dotted-link:hover {
 }
 
 
-/* Main Layout */
+/* Main Layout - Preserves your original spacing */
 .main-wrapper {
-  display: grid;
-  grid-template-columns: 2fr 1fr; /* 2:1 ratio */
-  gap: 30px;
+  display: flex;
+  gap: 30px; /* Space between columns */
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
-.main-content {
-  grid-column: 1;
+.about-me {
+  flex: 2; /* Takes 2/3 of space */
+  margin-right: 30px; /* Your original right margin */
 }
 
-.sidebar {
-  grid-column: 2;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.sidebar-content {
+  flex: 1; /* Takes 1/3 of space */
+  min-width: 240px; /* Prevents squeezing */
 }
 
-/* Cards */
+/* Card Styles - Preserves your original card styling */
 .card {
-  background: #ffffff;
-  border: 1px solid #e2e8f0;
+  background: #fff;
   border-radius: 8px;
   padding: 25px;
+  margin-bottom: 20px; /* Your original bottom margin */
   box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
 
 .sidebar-card {
-  width: 100%; /* Take full width of sidebar */
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px; /* Space between sidebar cards */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Responsive Design */
+/* Responsive - Stacks on mobile */
 @media (max-width: 768px) {
   .main-wrapper {
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
-  .sidebar {
-    grid-column: 1;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .sidebar-card {
-    width: calc(50% - 10px);
+  .about-me {
+    margin-right: 0;
   }
 }
