@@ -85,6 +85,11 @@ header a {
   color: #333;
 }
 
+.card h2{
+  font-size: 1.4rem;
+  color: #999;
+}
+
 .card p {
   color: #666; /* Medium gray color */
   font-size: 0.9rem; /* Slightly smaller than base font */
