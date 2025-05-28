@@ -99,13 +99,14 @@ header a {
   margin-bottom: 0.8rem; /* Adjust paragraph spacing if needed */
 }
 
-/*work section*/
+/*work section
 #work .card p1 {
   color: #666;
   font-style: italic;
   text-indent: 1.8em;
   line-height: 0.8;
 }
+*/
 
 #work .card h2{
   font-size: 1.2rem;
