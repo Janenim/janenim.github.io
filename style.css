@@ -221,12 +221,20 @@ a.dotted-link:hover {
 
 .sidebar-card {
   background: #ffffff;
-  border: 1px solid #e2e8f0;  /* Light gray border */
+  border: 1px solid #e2e8f0;
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
               0 2px 4px -1px rgba(0, 0, 0, 0.06);
   margin-bottom: 20px;
+}
+.sidebar-card h3 {
+  color: #1e3a8a;
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 8px;
 }
 
 
