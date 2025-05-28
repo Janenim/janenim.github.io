@@ -80,18 +80,18 @@ header a {
   max-width: 600px;
 }
 
-.card h3 {
+.card -- education h3 {
   margin-top: 0;
   font-size: 1.4rem;
   color: #333;
 }
 
-.card h2{
+.card -- education h2{
   font-size: 1.4rem;
   color: #999;
 }
 
-.card p {
+.card -- education p {
   color: #666; /* Medium gray color */
   font-size: 0.9rem; /* Slightly smaller than base font */
   line-height: 1.4; /* Reduced line spacing (default is typically 1.5-1.6) */
