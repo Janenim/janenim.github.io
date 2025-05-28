@@ -91,6 +91,7 @@ header a {
   color: #333;
 }
 
+/*************dont change janeeee 5/28/2025**************/
 .card p {
   color: #181818; 
   font-size: 1.0rem; /* Slightly smaller than base font */
@@ -98,6 +99,7 @@ header a {
   margin-bottom: 0.8rem; /* Adjust paragraph spacing if needed */
 }
 
+/*************dont change janeeee 5/28/2025**************/
 /*SECTION EDUCATION*/
 #education .card p {
   color: #666;
@@ -106,6 +108,7 @@ header a {
   line-height: 0.8;
 }
 
+/*************dont change janeeee 5/28/2025**************/
 #education .card h2{
   font-size: 1.4rem;
   color: #505050;
