@@ -99,6 +99,19 @@ header a {
   margin-bottom: 0.8rem; /* Adjust paragraph spacing if needed */
 }
 
+/*work section*/
+#work experience.card p {
+  color: #666;
+  font-style: italic;
+  text-indent: 1.8em;
+  line-height: 0.8;
+}
+
+#work experience .card h2{
+  font-size: 1.4rem;
+  color: #505050;
+}
+
 /*************dont change janeeee 5/28/2025**************/
 /*SECTION EDUCATION*/
 #education .card p {
