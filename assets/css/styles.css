@@ -109,9 +109,8 @@ header a {
 #work .card p1 {
   color: #666;
   font-style: italic;
-  fonts-size: 0.6rem;
-  text-indent: 1.8em;
-  line-height: 0.8;
+  font-size: 0.6rem;
+  line-height: 0.6;
 }
 
 
