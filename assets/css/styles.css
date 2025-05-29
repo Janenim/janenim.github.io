@@ -102,14 +102,14 @@ header a {
 /*work section*/
 
 #work .card p {
-  line-height: 1.2; /* Reduced line spacing (default is typically 1.5-1.6) */
+  line-height: 0.8; /* Reduced line spacing (default is typically 1.5-1.6) */
   margin-bottom: 0.1rem; /* Adjust paragraph spacing if needed */
 }
 
 #work .card p1 {
   color: #666;
   font-style: italic;
-  fonts-size: 0.9rem;
+  fonts-size: 0.6rem;
   text-indent: 1.8em;
   line-height: 0.8;
 }
