@@ -104,8 +104,8 @@ header a {
 #work .card p {
   line-height: 1.2; /* Reduced line spacing (default is typically 1.5-1.6) */
   margin-bottom: 1rem; /* Adjust paragraph spacing if needed */
-  margin-top: 0.2em;   
-  margin-bottom: 0.2em;
+  margin-top: 0.5em;   
+  margin-bottom: 0.5em;
 }
 
 #work .card p1 {
