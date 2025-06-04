@@ -144,10 +144,10 @@ header a {
 
 #volunteer .card p{
   color: #666;
-  font-size: 0.8rem;
+  font-size: 1.0rem;
   font-style: italic;
   text-indent: 1.8em;
-  line-height: 0.8;
+  line-height: 1.0;
 }
 
 /* Sidebar Info */
