@@ -149,6 +149,13 @@ header a {
   line-height: 1.0;
 }
 
+#skills .card p{
+  colo: #666;
+  font-size: 1.0rem; 
+  font-style: italic;
+  line-height: 1.0;
+}
+
 /* Sidebar Info */
 .sidebar {
   max-width: 300px;
